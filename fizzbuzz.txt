@@ -1,0 +1,15 @@
+var result;
+var max = 5;
+
+for (var i = 1; i <= max; i++) {
+  if (i % 3 === 0 && i % 5 === 0){
+    result = "fizbuzz";
+  } else if (i % 3 === 0){
+    result = "fizz";
+  } else if (i % 5 === 0){
+    result = "buzz";
+  } else {
+    result = i;
+  }
+console.log(result);
+}
